@@ -1,0 +1,114 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Main Container */
+.main-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Heading */
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Input Field */
+#guess {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.valid-message {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+#guess:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 1);
+}
+
+/* Buttons */
+.btn {
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #1a5bbf;
+}
+
+.reset-btn {
+  background: #ff4757;
+  margin-top: 1rem;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.reset-btn:hover {
+  background: #ff6b81;
+}
+
+/* Score and High-Score */
+.col-2 {
+  margin-top: 1.5rem;
+}
+
+.col-2 p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.col-2 span {
+  font-weight: 600;
+  color: #ffdd59;
+}
+
+/* Flex Container */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

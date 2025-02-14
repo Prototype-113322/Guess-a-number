@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number Game</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main Container -->
+    <main class="main-container flex-container">
+      <div class="sub-container">
+        <h1>GUESS A NUMBER</h1>
+        <div class="col-1">
+          <input type="number" id="guess" />
+          <p class="valid-message">Start Guessing ...</p>
+          <button class="btn submit-btn">Submit</button>
+        </div>
+        <div class="col-2">
+          <p>Score: <span class="score">5</span></p>
+          <p>High-Score: <span class="high-score">0</span></p>
+          <button class="reset-btn">RESET</button>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
